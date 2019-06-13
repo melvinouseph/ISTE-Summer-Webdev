@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Register - [Whatever]</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="userregisters.css">
+</head>
+<body background="https://wallpaperplay.com/walls/full/c/9/b/40687.jpg">
+	<br><br><br>
+	<h1><strong>[Whatever]</strong></h1>
+	<h3>Sign up with your details!</h3>
+	<form method="GET">
+		First Name: <input type="text" name="firstname"><br><br>
+		Last Name: <input type="text" name="lasttname"><br><br>
+		Email: <input type="email" name="email"><br><br>
+		Password: <input type="password" name="password" minLength="5"><br><br>
+		Birthday: <input type="date" name="birthday"><br><br>
+		Phone Number: <input type="text" name="phno"><br><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male<br>
+		<input type="radio" name="gender" value="Female">Female<br>
+		<input type="radio" name="gender" value="Other">Other<br><br>
+
+		<div class="flex">
+  			<form class="flex-item">
+    		<input class="button b1" type="submit" value="Register!">
+  			</form>
+
+  			<form class="flex-item">
+    		<input class="button b2" type="reset" value="Back" onclick="window.location.href='userlogin.html';">
+  			</form>
+  		</div>
+	</form>
+
+</body>
+</html>
